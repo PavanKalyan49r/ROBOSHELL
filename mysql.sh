@@ -34,7 +34,7 @@ dnf module disable mysql -y &>> $LOGFILE
 
 VALIDATE $? "DISABLING MYSQL"
 
-cp /home/centos/roboshop-shell/mysql.repo /etc/yum.repos.d/mysql.repo &>> $LOGFILE
+cp /home/centos/ROBOSHELL/mysql.repo /etc/yum.repos.d/mysql.repo &>> $LOGFILE
 
 VALIDATE $? "COPYING MYSQL REPO"
 

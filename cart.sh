@@ -69,7 +69,7 @@ npm install &>> $LOGFILE
 VALIDATE $? "installimg dependencies"
 
 #use absolute, because cart.service exists there
-cp /home/centos/roboshop-shell/cart.service /etc/systemd/system/cart.service &>> $LOGFILE
+cp /home/centos/ROBOSHELL/cart.service /etc/systemd/system/cart.service &>> $LOGFILE
 
 VALIDATE $? "copying cart service file"
 
