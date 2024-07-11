@@ -34,7 +34,7 @@ dnf install maven -y &>> $LOGFILE
 VALIDATE $? "INSTALLING MAVEN"
 
 id roboshop
-if [ ID -ne 0]
+if [ $? -ne 0 ]
 then
 useradd roboshop
 VALIDATE $? " roboshop user creation "
