@@ -52,7 +52,7 @@ VALIDATE $? "DOWNLOADING SHIPPING CONTENT"
 
 cd /app
 
-unzip /tmp/shipping.zip &>> $LOGFILE
+unzip -o /tmp/shipping.zip &>> $LOGFILE
 
 VALIDATE $? "UNZIPPING CONTENT "
 
